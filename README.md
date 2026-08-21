@@ -12,6 +12,24 @@ The application provides a `/profile` endpoint that displays the active profile 
 
 See [01profileDemo/README.md](01profileDemo/README.md) for the complete example and profile values.
 
+### 02interceptors
+
+Demonstrates a custom Spring MVC interceptor, how to register it for selected URL patterns, and how to exclude other endpoints from interception.
+
+See [02interceptors/README.md](02interceptors/README.md) for details.
+
+### 03filters
+
+Demonstrates a custom servlet filter that runs once per request, generates a request ID, adds response headers, and logs before and after controller execution.
+
+See [03filters/README.md](03filters/README.md) for details.
+
+### 04interceptorAndFilter
+
+Combines two custom interceptors and three custom filters. Its response displays their execution order so the difference between filters and interceptors is easy to understand.
+
+See [04interceptorAndFilter/README.md](04interceptorAndFilter/README.md) for details.
+
 ## Prerequisites
 
 Install the following before running the projects:
@@ -33,6 +51,8 @@ From the repository folder, enter the project you want to run:
 ```powershell
 cd .\01profileDemo\
 ```
+
+Replace `01profileDemo` with `02interceptors`, `03filters`, or `04interceptorAndFilter` to run another demo.
 
 Run it with its default configuration:
 
