@@ -30,6 +30,12 @@ Combines two custom interceptors and three custom filters. Its response displays
 
 See [04interceptorAndFilter/README.md](04interceptorAndFilter/README.md) for details.
 
+### 05exceptionHandling
+
+Demonstrates comprehensive Spring Boot exception handling, including global advice (`@RestControllerAdvice`), standard error response models, Jakarta bean validation handling (`@Valid`), custom domain exceptions, controller-scoped handlers, and `@ResponseStatus`.
+
+See [05exceptionHandling/README.md](05exceptionHandling/README.md) for details.
+
 ## Prerequisites
 
 Install the following before running the projects:
@@ -52,7 +58,7 @@ From the repository folder, enter the project you want to run:
 cd .\01profileDemo\
 ```
 
-Replace `01profileDemo` with `02interceptors`, `03filters`, or `04interceptorAndFilter` to run another demo.
+Replace `01profileDemo` with `02interceptors`, `03filters`, `04interceptorAndFilter`, or `05exceptionHandling` to run another demo.
 
 Run it with its default configuration:
 
